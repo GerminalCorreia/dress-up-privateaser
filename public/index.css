@@ -3,10 +3,6 @@
   margin-left: 5%;
 }
 
-.container {
-  margin-top: 10%;
-}
-
 .card {
   height: 70px;
 }
@@ -20,6 +16,12 @@
   background-color: #fff;
   width: 20%;
   min-width: 200px;
+}
+
+#title {
+  margin-bottom: 10%;
+  color: #ff8c00;
+  size: 100px;
 }
 
 body {
