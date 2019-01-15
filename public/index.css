@@ -11,8 +11,15 @@
   height: 70px;
 }
 
-#bootstrap-card-overwrite {
+#bootstrap-overwrite .card{
   background-color: #fff0;
+  border-color: #fff0;
+}
+
+#actors {
+  background-color: #fff;
+  width: 20%;
+  min-width: 200px;
 }
 
 body {
