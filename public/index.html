@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Privateaser</title>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -9,18 +10,22 @@
   </head>
   <body>
     <div class="container">
-      <div id="bar" class="row">
-        <input class="col-sm-3" class="js-name" type="text" placeholder="Bar name"/>
-        <input class="col-sm-3" class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-        <input class="col-sm-3" class="js-price-by-person" type="number" placeholder="Price by person"/>
+      <div class="card">
+        <div id="bar" class="row">
+          <input class="col-sm-3 js-name" type="text" placeholder="Bar name"/>
+          <input class="col-sm-3 js-price-by-hour" type="number" placeholder="Price by hour"/>
+          <input class="col-sm-3 js-price-by-person" type="number" placeholder="Price by person"/>
+        </div>
       </div>
-      <div id="booker" class="row">
-        <input class="col-sm-3" class="js-name" type="text" placeholder="Booker name"/>
-        <input class="col-sm-3" class="js-time" type="number" placeholder="Time in h"/>
-        <input class="col-sm-3" class="js-persons" type="number" placeholder="Persons"/>
-        <input class="col-sm-3" class="js-option" type="checkbox" placeholder="Deductible option"/>
+      <div class="card">
+        <div id="booker" class="row">
+          <input class="col-sm-3 js-name" type="text" placeholder="Booker name"/>
+          <input class="col-sm-3 js-time" type="number" placeholder="Time in h"/>
+          <input class="col-sm-3 js-persons" type="number" placeholder="Persons"/>
+          <input class="col-sm-3 js-option" type="checkbox" placeholder="Deductible option"/>
+        </div>
       </div>
-      <button id="compute">Compute</button>
+      <button id="compute" class="btn">Compute</button>
       <div id="actors"></div>
       <script src="privateaser.js"></script>
       <script src="index.js"></script>
