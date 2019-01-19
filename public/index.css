@@ -18,10 +18,24 @@
   min-width: 200px;
 }
 
+#title-row {
+  margin-bottom: 20%;
+  height: 8.5vw;
+}
+
 #title {
-  margin-bottom: 10%;
-  color: #ff8c00;
-  size: 100px;
+  font-size: 5vw;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: auto 80%;
+  border-radius: 1vw;
+}
+
+#deductible-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: auto;
+  border-radius: 0.2vw;
 }
 
 body {

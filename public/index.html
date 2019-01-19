@@ -10,7 +10,9 @@
   </head>
   <body>
     <div id="bootstrap-overwrite" class="container">
-      <h1 id="title">Privateaser</h1>
+      <div id="title-row" class="row">
+        <p id="title">Privateaser</p>
+      </div>
       <div class="card">
         <div id="bar" class="row">
           <input class="col-sm-3 js-name" type="text" placeholder="Bar name"/>
@@ -23,7 +25,10 @@
           <input class="col-sm-3 js-name" type="text" placeholder="Booker name"/>
           <input class="col-sm-3 js-time" type="number" placeholder="Time in h"/>
           <input class="col-sm-3 js-persons" type="number" placeholder="Persons"/>
-          <input class="col-sm-3 js-option" type="checkbox" placeholder="Deductible option"/>
+          <div class="col-sm-3">
+            <label id="deductible-text">Deductible option</label>
+            <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+          </div>
         </div>
       </div>
       <button id="compute" class="btn">Compute</button>
